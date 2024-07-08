@@ -43,7 +43,7 @@ const LoginForm = () => {
                 const city = data.address.city || data.address.town || data.address.village || data.address.hamlet || 'Location not found';
                 setCity(city);
             } else {
-                setError("Unable to retrieve city name");
+                setError("Unable to reetrieve city name");
             }
         } catch (err) {
             setError("Error fetching city name");
