@@ -20,6 +20,7 @@
     color: #333;
 }
 
+
 .form-group {
     margin-bottom: 20px;
     text-align: left;
@@ -53,4 +54,16 @@ button {
 
 button:hover {
     background-color: #0e71c8;
+}
+
+.location-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: green;
+}
+
+.location-error {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: red;
 }

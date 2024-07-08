@@ -1,0 +1,31 @@
+/* Maps.css */
+
+.maps-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.maps-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.maps-container button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.maps-container button:hover {
+    background-color: #0e71c8;
+}
